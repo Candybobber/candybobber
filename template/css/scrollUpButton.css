@@ -1,0 +1,25 @@
+.scrollUpButton {
+  position: fixed;
+  width: 40px;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0,.5);
+  font-size: 14px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;;
+  vertical-align: middle;
+}
+.scrollUpButton:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0,.9);
+}
+.scrollUpButton:focus {
+  color: #fff;
+  outline: none;
+  background-color: #39235A;
+  border-color: #39235A;
+}
